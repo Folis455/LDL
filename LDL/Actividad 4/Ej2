@@ -1,6 +1,0 @@
-num = int(input("Ingresar número: "))
-
-if (num >= 10):
-    print("Número mayor que 10")
-else: print("Número menor que 10")
-

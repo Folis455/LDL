@@ -1,6 +1,0 @@
-dias = (input("Ingresar día de la semana: "))
-prod = int(input("Ingresar cantidad de productos: "))
-
-if dias.lower() == 'lunes' and prod >= 3:
-    print("Accede al descuento.")
-else: print("No accede al descuento.")

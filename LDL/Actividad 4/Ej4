@@ -1,4 +1,0 @@
-num = int(input("Ingresar número entero: "))
-if (num % 2 == 0):
-    print("El número entero ingresado: '{}' es par".format(num))
-else: print("El número entero ingresado: '{}' es impar".format(num))

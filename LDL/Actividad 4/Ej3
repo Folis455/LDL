@@ -1,7 +1,0 @@
-x = int(input("Ingresar primer número: "))
-y = int(input("Ingresar segundo número : "))
-
-if (x > y):
-    print("'X': ({}) es mayor que 'Y': ({})" .format(x, y))
-elif (x < y): print("'X': ({}) no es mayor que 'Y': ({})" .format(y, x))
-else: print("'X': ({}) es igual que 'Y': ({})" .format(x, y))
