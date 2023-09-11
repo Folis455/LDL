@@ -1,0 +1,6 @@
+num = int(input("Ingresar número entero: "))
+print(num)
+for i in range(num):
+  print(num+1)
+  num+=1
+  
