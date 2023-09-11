@@ -1,0 +1,8 @@
+cant = int(input("Ingresar cantidad de números a sumar: "))
+suma = 0
+
+for i in range(cant):
+    num = int(input("Ingresar número a sumar: "))
+    if (num < 0): continue
+    else: suma += num
+print ("La suma es:", suma)

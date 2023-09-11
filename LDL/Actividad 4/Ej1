@@ -1,0 +1,13 @@
+#Escribir un programa que solicite el ingreso de dos números enteros y que
+# imprima el resultado de la suma, resta, multiplicación, cociente y resto de la
+# división.
+
+num = int(input("Ingresar primer número: "))
+num2 = int(input("Ingresar segundo número : "))
+
+print("La suma es: ", (num + num2))
+print("La resta es: ", (num - num2))
+print("La multiplicación es: ", (num * num2))
+print("El cociente es: ", (num % num2))
+print("El resto es: ", (num / num2))
+

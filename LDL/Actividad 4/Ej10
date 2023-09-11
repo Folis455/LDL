@@ -1,0 +1,21 @@
+# Escribir un programa que solicite el ingreso de 8 números enteros que se
+# encuentren entre -10 y 10 e imprima la sumatoria de los valores negativos, la
+# cantidad de valores iguales a cero y el promedio de los valores positivos. Se
+# deberá pedir el reingreso de un número si éste estuviera fuera del rango dado.
+contador = 0
+negativos = 0
+positivos = 0
+
+for i in range(8):
+    num = int(input("Ingresar número entero: "))
+    while num < -10 or num > 10:
+        print("El número debe estar entre -10 y 10. Inténtelo nuevamente.")
+        num = int(input("Ingresar número entero: "))
+
+    if (num == 0): contador += 1
+    elif (num < 0 and num > -10): negativos += num
+    elif (num > 0 and num < 10): positivos += num 
+
+print ("La suma de positivos es :", positivos)
+print ("La suma de negativos es :", negativos)
+print ("La cantidad de ceros es de :", contador)
